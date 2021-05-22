@@ -1,0 +1,15 @@
+
+ ** The code below will help install SSMS and ADS in SQL VM or any  Windows VM in Azure Cloud
+###########################################################
+#      USe this code for Azure Data Studio Install        #
+###########################################################
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install azure-data-studio --yes
+
+
+
+###########################################################
+#           USe this code for SSMS Install                #
+###########################################################
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install sql-server-management-studio --yes
