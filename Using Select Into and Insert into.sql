@@ -3,7 +3,7 @@ select * from information_schema.tables
 where table_type like '%base%'
 go
 
---#################  Using Select into ###################################
+--#################  Using Select into Also ###################################
 
 select table_schema, table_name into metadata2
 from
