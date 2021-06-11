@@ -1,0 +1,23 @@
+{
+    "title": "PIPELINE DIDNT RUN",
+    "message": "DEMO-PIPELINE DINT RUN",
+    "color": "RED",
+    "dataFactoryName": "@{pipeline().DataFactory}",
+    "pipelineName": "@{pipeline().Pipeline}",
+    "pipelineRunId": "@{pipeline().RunId}",
+    "time": "@{utcnow()}"
+}
+
+
+
+{
+    "title": "PIPELINE  RUN SUCCESSFULLY ",
+    "message": "DEMO-PIPELINE  RUN SUCCESSFULLY ",
+    "color": "GREEN",
+    "dataFactoryName": "@{pipeline().DataFactory}",
+    "pipelineName": "@{pipeline().Pipeline}",
+    "pipelineRunId": "@{pipeline().RunId}",
+    "time": "@{utcnow()}"
+}
+
+
